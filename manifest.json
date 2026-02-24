@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Simple Cookie Reader",
+  "description": "Shows all cookies of the current website",
+  "version": "1.0",
+  "permissions": [
+    "cookies",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "cookie16.png",
+      "32": "cookie32.png",
+      "48": "cookie48.png"
+    }
+  }
+}
